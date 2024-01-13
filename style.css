@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.page {
+    background-color: lightseagreen;
+    width: 600px;
+    height: 700px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+}
+
+/* Start Upper Page Coding */
+.upper-page {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    height: 16%;
+    width: 100%;
+    background-color:#AF7EEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Start Middle Page Coding */
+
+.middle-page {
+
+    font-weight: bolder;
+    height: 74%;
+    width: 100%;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.middle-page ul {
+    width: 100%;
+    height: auto;
+   
+}
+.middle-page ul li{
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #AF7EEB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   color: black;
+}
+
+.middle-page ul .checked .text{
+    color: gray;
+    text-decoration: line-through;
+}
+.middle-page ul .checked .fa-square-check{
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Start Down Page Coding */
+.down-page {
+    color: white;
+    font-weight: bolder;
+    height: 10%;
+    width: 100%;
+    background-color: #AF7EEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Input Tag Setting */
+.down-page input {
+    /* border-radius: 10px; */
+    padding: 10px;
+    height: 100%;
+    border: none;
+    width: 85%;
+    background-color: #AF7EEB;
+    outline: none;
+    font-size: 20px;
+    color: white;
+}
+
+.down-page input::placeholder {
+    color: white;
+}
+
+.down-page i {
+    cursor: pointer;
+    padding: 5px;
+    color: white;
+    font-size: 45px;
+}
